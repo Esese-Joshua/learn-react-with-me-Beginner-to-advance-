@@ -41,18 +41,49 @@ import styles from "./HelloWorld.module.css";
 
 // SCOPPING CSS FILES
 
+// const HelloWorld = () => {
+//     return(
+//         <div>
+//             <div className={styles.header}>
+//                 <h1>Hello World</h1>
+//             </div>
+//             <div className={styles["header-blue"]}>
+//                 <h1>Hello World</h1>
+//             </div>            
+//         </div>    
+//     );
+// };
+
+
+// export default HelloWorld;
+
+
+
+
+
+// PROPS
 const HelloWorld = () => {
     return(
         <div>
-            <div className={styles.header}>
-                <h1>Hello World</h1>
-            </div>
-            <div className={styles["header-blue"]}>
-                <h1>Hello World</h1>
-            </div>            
-        </div>    
-    );
-};
+            <h1>Props</h1>
+            <hr />
+            <p>
+                A featur in React that allows us to pass information between components. 
+            </p>
+        </div>
+    )
+}  
+
+
+
+
+
+
+
+
+
+
+
 
 
 export default HelloWorld;
